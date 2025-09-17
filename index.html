@@ -3,43 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage</title>
+    <title>My Blog Posts</title>
+    <!-- Custom Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome!</h1>
-    <p>This is my styled content.</p>
-    <a hfef="https://youtube.com/shorts/g2oLgNABI6o?si=_dGX-oJxDvuCBhBs">feet </a>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog Posts</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <h1>My Blog</h1>
+    <header id="main-header">
+        <h1 class="site-title">My Blog</h1>
     </header>
     <main>
-        <section class="post">
-            <h2><a href="posts/post1.html">Post Title 1</a></h2>
-            <img src="path/to/image1.jpg" alt="Preview of Post 1">
-            <p>This is a brief description of the first blog post.</p>
-        </section>
-        <section class="post">
-            <h2><a href="posts/post2.html">Post Title 2</a></h2>
-            <img src="path/to/image2.jpg" alt="Preview of Post 2">
-            <p>This is a brief description of the second blog post.</p>
-        </section>
-        <section class="post">
-            <h2><a href="posts/post3.html">Post Title 3</a></h2>
-            <img src="path/to/image3.jpg" alt="Preview of Post 3">
-            <p>This is a brief description of the third blog post.</p>
-        </section>
+        <div class="container">
+            <section class="post" id="post1">
+                <h2 class="post-title"><a href="posts/post1.html" class="post-link">Nature</a></h2>
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600" alt="Preview of Post 1" class="post-image">
+                <p class="post-text">Discover nature more in life and get off ur phone. Get a life and go outside.</p>
+                <a href="posts/post1.html" class="post-link">Read More</a>
+            </section>
+            <section class="post" id="post2">
+                <h2 class="post-title"><a href="posts/post2.html" class="post-link">Sky</a></h2>
+                <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=600" alt="Preview of Post 2" class="post-image">
+                <p class="post-text">Some people study star for their whole life. Those people gotta get a job.</p>
+                <a href="posts/post2.html" class="post-link">Read More</a>
+            </section>
+            <section class="post" id="post3">
+                <h2 class="post-title"><a href="posts/post3.html" class="post-link">Beach</a></h2>
+                <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=600" alt="Preview of Post 3" class="post-image">
+                <p class="post-text">Inflations been crazy recently. Tell others that your exploring nature but your actually broke.</p>
+                <a href="posts/post3.html" class="post-link">Read More</a>
+            </section>
+        </div>
     </main>
 </body>
 </html>
